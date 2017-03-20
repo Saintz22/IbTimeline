@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">IbTimeline</string>
     <string name="Title"> IBCC 2k17</string>
-    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_button1">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
+
