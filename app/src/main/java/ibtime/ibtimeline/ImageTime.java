@@ -1,8 +1,13 @@
 package ibtime.ibtimeline;
 
-/**
- * Created by Nicholas on 20/03/2017.
- */
+import ibtime.ibtimeline.MainMenu;
+import android.annotation.SuppressLint;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.view.MotionEvent;
+import android.view.View;
 
 public class ImageTime {
 
