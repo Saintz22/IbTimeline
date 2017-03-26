@@ -9,10 +9,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import ibtime.ibtimeline.ImageTime;
 
-/**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
- */
 public class MainMenu extends AppCompatActivity {
     /**
      * Whether or not the system UI should be auto-hidden after
@@ -107,6 +103,7 @@ public class MainMenu extends AppCompatActivity {
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
         findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+
     }
 
     @Override
@@ -162,9 +159,13 @@ public class MainMenu extends AppCompatActivity {
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
     }
 
-    public void ImageClick()
+
+    public void TimeChange()
     {
+
         ImageTime.forwardTime(); //will have an if statement to decide what button has been pressed
+
+
         ImageTime.backTime();
     }
 }
