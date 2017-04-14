@@ -1,12 +1,17 @@
 package ibtime.ibtimeline;
 
 import android.annotation.SuppressLint;
+import android.media.Image;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
+
 import ibtime.ibtimeline.ImageTime;
 
 public class MainMenu extends AppCompatActivity {
@@ -159,13 +164,20 @@ public class MainMenu extends AppCompatActivity {
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
     }
 
-
-    public void TimeChange()
+    //when the backward button is clicked will be edited, just shows that things can be edited on click for backwards.
+    public void PreviousTimeChange(View v)
     {
+        TextView tv = (TextView)findViewById(R.id.TitleBar);
+        tv.setText("Text has not been edited");
 
-        ImageTime.forwardTime(); //will have an if statement to decide what button has been pressed
-
-
-        ImageTime.backTime();
+        //ImageTime.backTime();
     }
+
+    //when the forward button is clicked
+    public void ForwardTimeChange(View v)
+    {
+        ImageTime.forwardTime();
+    }
+
+
 }

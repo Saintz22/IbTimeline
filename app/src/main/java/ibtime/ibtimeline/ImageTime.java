@@ -15,7 +15,7 @@ public class ImageTime {
 
     public static void forwardTime()
     {
-
+        
     }
 
     public static void backTime()

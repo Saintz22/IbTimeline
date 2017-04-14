@@ -61,7 +61,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="375dp"
-
+            android:onClick="PreviousTimeChange"
+            android:clickable="true"
             app:srcCompat="@drawable/ic_arrow_back_black_36dp" />
 
         <!-- Right hand button -->
@@ -71,7 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="950dp"
             android:layout_marginTop="375dp"
-
+            android:onClick="ForwardTimeChange"
+            android:clickable="true"
             app:srcCompat="@drawable/ic_arrow_forward_black_36dp" />
     </FrameLayout>
 
