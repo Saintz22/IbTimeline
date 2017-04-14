@@ -19,6 +19,11 @@ public class MainMenu extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
+
+    int counterDate = 0;
+    int startDate = 1939;
+    int endDate = 1940;
+
     private static final boolean AUTO_HIDE = true;
 
     /**
@@ -167,8 +172,14 @@ public class MainMenu extends AppCompatActivity {
     //when the backward button is clicked will be edited, just shows that things can be edited on click for backwards.
     public void PreviousTimeChange(View v)
     {
-        TextView tv = (TextView)findViewById(R.id.TitleBar);
-        tv.setText("Text has not been edited");
+        TextView StartDate = (TextView)findViewById(R.id.StartDate);
+        TextView EndDate = (TextView)findViewById(R.id.EndDate);
+
+        if(counterDate >= 1) {
+            StartDate.setText("" + (startDate--));
+            EndDate.setText("" + (endDate--));
+            counterDate--;
+        }
 
         //ImageTime.backTime();
     }
@@ -176,7 +187,15 @@ public class MainMenu extends AppCompatActivity {
     //when the forward button is clicked
     public void ForwardTimeChange(View v)
     {
-        ImageTime.forwardTime();
+        TextView StartDate = (TextView)findViewById(R.id.StartDate);
+        TextView EndDate = (TextView)findViewById(R.id.EndDate);
+
+        if(counterDate >= 0) {
+            StartDate.setText("" + (startDate++));
+            EndDate.setText("" + (endDate++));
+            counterDate++;
+        }
+
     }
 
 
