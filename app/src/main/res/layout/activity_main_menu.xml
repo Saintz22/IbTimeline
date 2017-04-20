@@ -44,14 +44,6 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <Button
-                android:id="@+id/dummy_button"
-                style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button" />
-
         </LinearLayout>
 
         <!-- Left hand button -->
@@ -107,7 +99,8 @@
         android:layout_height="136dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="175dp"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:onClick="loadEvent1"/>
 
     <!-- Top Middle -->
 
@@ -117,7 +110,9 @@
         android:layout_height="136dp"
         android:layout_marginLeft="420dp"
         android:layout_marginTop="175dp"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:onClick="loadEvent1"
+        />
 
     <!-- Bottom Left -->
 
@@ -127,7 +122,8 @@
         android:layout_height="136dp"
         android:layout_marginLeft="200dp"
         android:layout_marginTop="450dp"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:onClick="loadEvent1"/>
 
     <!-- Bottom Right -->
     <ImageButton
@@ -136,7 +132,8 @@
         android:layout_height="136dp"
         android:layout_marginLeft="600dp"
         android:layout_marginTop="450dp"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:onClick="loadEvent1"/>
 
     <!-- Top Right -->
     <ImageButton
@@ -145,7 +142,8 @@
         android:layout_height="136dp"
         android:layout_marginLeft="750dp"
         android:layout_marginTop="175dp"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:onClick="loadEvent1"/>
 
 
 </FrameLayout>

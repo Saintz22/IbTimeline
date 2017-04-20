@@ -112,7 +112,7 @@ public class MainMenu extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+        //findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
 
     }
 
@@ -197,6 +197,17 @@ public class MainMenu extends AppCompatActivity {
         }
 
     }
+
+    public void returnHome(View v)
+    {
+        setContentView(R.layout.activity_main_menu);
+    }
+
+    public void loadEvent1(View v)
+    {
+        setContentView(R.layout.event_info);
+    }
+
 
 
 }

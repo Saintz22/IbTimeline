@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="ibtime.ibtimeline.MainMenu">
+
+    <!-- background colour, placeholding atm-->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:background="@color/colorPrimaryDark"
+       />
+
+    <!-- title text bar, placeholding atm -->
+    <TextView
+        android:id="@+id/TitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/Event1"
+        android:textColor="@color/teal"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+        <!-- Return to Timeline Button -->
+
+        <Button
+            android:id="@+id/ReturnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Return"
+            android:onClick="returnHome"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="600dp"
+            />
+
+        <!-- 3D View Button -->
+
+        <Button
+            android:id="@+id/view3DButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view3D"
+            android:layout_marginLeft="520dp"
+            android:layout_marginTop="600dp"/>
+
+
+        <!-- Right hand button -->
+
+        <!-- Start Date -->
+
+        <!-- End Date -->
+
+    </FrameLayout>
+
+
+
+
+</FrameLayout>

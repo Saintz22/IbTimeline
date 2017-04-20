@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.TextView;
 
 //testing
 
@@ -15,7 +16,7 @@ public class ImageTime {
 
     public static void forwardTime()
     {
-        
+
     }
 
     public static void backTime()
