@@ -196,18 +196,22 @@ public class MainMenu extends AppCompatActivity {
             counterDate++;
         }
 
+        //ImageTime.forwardTime();
     }
 
+    //will return to the ib timeline homepage
     public void returnHome(View v)
     {
         setContentView(R.layout.activity_main_menu);
     }
 
+    //load eventpage one,
     public void loadEvent1(View v)
     {
         setContentView(R.layout.event_info);
     }
 
-
+    //here we will load the other 4 event pages once the initial design is complete.
+    //can also work with the timescale changing on clicks, will be done with a combination of button id being clicked and start date. 
 
 }
