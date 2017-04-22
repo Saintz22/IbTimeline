@@ -221,8 +221,8 @@ public class MainMenu extends AppCompatActivity {
         ImageView rightImage = (ImageView) findViewById(R.id.ImageRight);
 
         //set title and main body text
-        eventTitle.setText("Model Event");
-        mainText.setText("This will be the main and primary event image.");
+        eventTitle.setText("1939 Bomber Command");
+        mainText.setText(R.string.modelText);
 
         //set image
         topImage.setImageResource(R.mipmap.bomb1);

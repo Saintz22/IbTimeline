@@ -4,7 +4,7 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY CONTENT</string>
     <string name="Return">Return to Timeline</string>
-    <string name="view3D">Go to 3D View</string>
+    <string name="view360">Go to 360 View</string>
     <string name="Event1">Event1</string>
     <string name="dummy_Para">This box would contain all historical information relevant to the event\n
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales vitae risus semper congue. Nullam a tellus commodo, interdum nisl in, fermentum dolor. Integer in massa a lorem venenatis consectetur.
@@ -17,6 +17,12 @@ Praesent rutrum urna ut tortor accumsan ornare. Nulla vestibulum tortor quis mag
         orci luctus et ultrices posuere cubilia Curae;\n
 Vivamus id rhoncus urna. Pellentesque mollis imperdiet dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Fusce ac felis vehicula, pretium enim eu, lacinia felis. Ut pellentesque nunc non ante porta placerat. </string>
+    <string name="modelText">1939 Bomber Command\n\n
+Many men joined Bomber Command and by September 1939, there were nominally 33 bomber squadrons. However, they were equipped with planes that could not match the bombers Nazi Germany had built.
+Bomber Group No 1 had been sent to France to assist the BEF , but equipped with obsolete Fairey Battles, they could do little of substance.\n\n
+        Bomber Group No 2 was equipped with Blenheims; Bomber Group No 3 was equipped with Wellingtons; No 4 Group had Whitleys while No 5 Group had Hampdens.
+The Blenheims could only carry 1,000 pounds of bombs, so it could not be used as a strategic bomber against Germany.\n\n
+ On paper, Bomber Command had 272 bombers in September 1939. However, in reality, because of a shortage of trained crews, only 140 planes could be used on average. Germany had about 1000 bombers fully operational at the start of the war – excluding the Stuka dive-bomber.</string>
 
 </resources>
 

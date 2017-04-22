@@ -63,7 +63,7 @@
             android:id="@+id/view3DButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/view3D"
+            android:text="@string/view360"
             android:layout_marginLeft="520dp"
             android:layout_marginTop="600dp"/>
 
