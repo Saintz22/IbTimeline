@@ -204,8 +204,9 @@
         android:layout_height="136dp"
         android:layout_marginLeft="750dp"
         android:layout_marginTop="175dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:onClick="loadEvent2"/>
+        app:srcCompat="@mipmap/plane4"
+        android:onClick="loadEvent2"
+        android:scaleType="fitXY"/>
 
 
 </FrameLayout>
