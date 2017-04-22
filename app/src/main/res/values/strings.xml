@@ -2,10 +2,21 @@
     <string name="app_name">IbTimeline</string>
     <string name="Title">History of the Bomber Command</string>
     <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
     <string name="Return">Return to Timeline</string>
     <string name="view3D">Go to 3D View</string>
     <string name="Event1">Event1</string>
+    <string name="dummy_Para">This box would contain all historical information relevant to the event\n
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales vitae risus semper congue. Nullam a tellus commodo, interdum nisl in, fermentum dolor. Integer in massa a lorem venenatis consectetur.
+        Aliquam luctus arcu eu sodales hendrerit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Nullam leo nunc, tristique eget mollis in, gravida sed ante. Pellentesque lacinia orci id sagittis rhoncus.\n
+Praesent rutrum urna ut tortor accumsan ornare. Nulla vestibulum tortor quis magna porta accumsan. Nam augue ipsum, gravida vitae venenatis id, tristique vel velit.
+        Vestibulum quis ipsum at turpis laoreet porttitor ut malesuada justo. Ut vel nibh non est tincidunt sollicitudin pulvinar sed metus. In placerat, sem eget accumsan bibendum, tellus justo ullamcorper neque, in varius tellus enim elementum orci. Curabitur feugiat faucibus auctor. Aliquam dolor eros,
+        malesuada interdum imperdiet eu, cursus in est. Nunc ac massa sit amet odio tristique consectetur id vel tortor. Nullam pharetra tristique rhoncus. Morbi hendrerit, lectus vel fringilla porttitor, tortor libero venenatis
+        ipsum, pellentesque malesuada est orci id nisl. Sed in erat nec libero tempor feugiat. Morbi eget ipsum fringilla, auctor justo nec, pulvinar purus. Quisque neque urna, dictum ut eros eu, laoreet malesuada nulla. Vestibulum ante ipsum primis in faucibus
+        orci luctus et ultrices posuere cubilia Curae;\n
+Vivamus id rhoncus urna. Pellentesque mollis imperdiet dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Fusce ac felis vehicula, pretium enim eu, lacinia felis. Ut pellentesque nunc non ante porta placerat. </string>
 
 </resources>
 

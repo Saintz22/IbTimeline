@@ -77,8 +77,8 @@
         android:layout_height="371dp"
         android:layout_marginLeft="450dp"
         android:layout_marginTop="165dp"
-        android:background="@color/white"
-        android:textColor="@color/black"
+        android:background="@color/transparent"
+        android:textColor="@color/white"
         android:gravity="center"/>
 
     <!-- Images for page -->

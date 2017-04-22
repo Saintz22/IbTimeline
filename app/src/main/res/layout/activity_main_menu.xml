@@ -185,7 +185,7 @@
         android:layout_marginLeft="200dp"
         android:layout_marginTop="450dp"
         app:srcCompat="@mipmap/plane2"
-        android:onClick="loadEvent2"
+        android:onClick="loadEvent3"
         android:scaleType="fitXY"
         android:background="@color/transparent"/>
 
@@ -197,7 +197,7 @@
         android:layout_marginLeft="600dp"
         android:layout_marginTop="450dp"
         app:srcCompat="@mipmap/plane3"
-        android:onClick="loadEvent2"
+        android:onClick="loadEvent4"
         android:scaleType="fitXY"
         android:background="@color/transparent"/>
 
@@ -209,7 +209,7 @@
         android:layout_marginLeft="750dp"
         android:layout_marginTop="175dp"
         app:srcCompat="@mipmap/plane4"
-        android:onClick="loadEvent2"
+        android:onClick="loadEvent5"
         android:scaleType="fitXY"
         android:background="@color/transparent"/>
 

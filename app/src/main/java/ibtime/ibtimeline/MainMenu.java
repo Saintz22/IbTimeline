@@ -239,18 +239,63 @@ public class MainMenu extends AppCompatActivity {
         //Get the title text and main body text.
         TextView eventTitle = (TextView) findViewById(R.id.TitleBar);
         TextView mainText = (TextView) findViewById(R.id.MainText);
+        ImageView topImage = (ImageView) findViewById(R.id.TopImage);
 
         //set title and main body text
-        eventTitle.setText("Battle of Britain2");
-        mainText.setText("This box will include all the " +
-                "data about this particualr historical item or event. " +
-                "Lorem ipsum dolor sit amet, elit nihil pertinax sed te, ne nobis graeco duo, " +
-                "sea no nusquam euripidis similique. Te vel prodesset constituam, velit audiam praesent per at. " +
-                "Homero oblique nominavi id usu, qui ne tincidunt voluptaria. Nulla mediocrem voluptaria sea et. Has no " +
-                "volutpat suscipiantur, quem laboramus mei no, erant mnesarchum scribentur ei vel.");
+        eventTitle.setText(R.string.dummy_content);
+        mainText.setText(R.string.dummy_Para);
+
+        topImage.setImageResource(R.mipmap.plane1);
     }
 
-    //here we will load the other 4 event pages once the initial design is complete.
-    //can also work with the timescale changing on clicks, will be done with a combination of button id being clicked and start date.
+    public void loadEvent3(View v)
+    {
+        setContentView(R.layout.event_info);
+
+        //Get the title text and main body text.
+        TextView eventTitle = (TextView) findViewById(R.id.TitleBar);
+        TextView mainText = (TextView) findViewById(R.id.MainText);
+        ImageView topImage = (ImageView) findViewById(R.id.TopImage);
+
+        //set title and main body text
+        eventTitle.setText(R.string.dummy_content);
+        mainText.setText(R.string.dummy_Para);
+
+        topImage.setImageResource(R.mipmap.plane2);
+    }
+
+    public void loadEvent4(View v)
+    {
+        setContentView(R.layout.event_info);
+
+        //Get the title text and main body text.
+        TextView eventTitle = (TextView) findViewById(R.id.TitleBar);
+        TextView mainText = (TextView) findViewById(R.id.MainText);
+        ImageView topImage = (ImageView) findViewById(R.id.TopImage);
+
+        //set title and main body text
+        eventTitle.setText(R.string.dummy_content);
+        mainText.setText(R.string.dummy_Para);
+
+        topImage.setImageResource(R.mipmap.plane3);
+    }
+
+    public void loadEvent5(View v)
+    {
+        setContentView(R.layout.event_info);
+
+        //Get the title text and main body text.
+        TextView eventTitle = (TextView) findViewById(R.id.TitleBar);
+        TextView mainText = (TextView) findViewById(R.id.MainText);
+        ImageView topImage = (ImageView) findViewById(R.id.TopImage);
+
+        //set title and main body text
+        eventTitle.setText(R.string.dummy_content);
+        mainText.setText(R.string.dummy_Para);
+
+        topImage.setImageResource(R.mipmap.plane4);
+    }
+
+    //if timescale is implemented, choose what to show based on start/end date.
 
 }
