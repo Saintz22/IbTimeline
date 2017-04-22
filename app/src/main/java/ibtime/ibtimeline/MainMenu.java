@@ -10,6 +10,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import ibtime.ibtimeline.ImageTime;
@@ -175,7 +176,7 @@ public class MainMenu extends AppCompatActivity {
         TextView StartDate = (TextView)findViewById(R.id.StartDate);
         TextView EndDate = (TextView)findViewById(R.id.EndDate);
 
-        if(counterDate >= 1) {
+        if(counterDate >= 0) {
             StartDate.setText("" + (startDate--));
             EndDate.setText("" + (endDate--));
             counterDate--;
@@ -190,7 +191,7 @@ public class MainMenu extends AppCompatActivity {
         TextView StartDate = (TextView)findViewById(R.id.StartDate);
         TextView EndDate = (TextView)findViewById(R.id.EndDate);
 
-        if(counterDate >= 0) {
+        if(counterDate <= 6) {
             StartDate.setText("" + (startDate++));
             EndDate.setText("" + (endDate++));
             counterDate++;
@@ -215,9 +216,32 @@ public class MainMenu extends AppCompatActivity {
         //Get the title text and main body text.
         TextView eventTitle = (TextView) findViewById(R.id.TitleBar);
         TextView mainText = (TextView) findViewById(R.id.MainText);
+        ImageView topImage = (ImageView) findViewById(R.id.TopImage);
+        ImageView leftImage = (ImageView) findViewById(R.id.ImageLeft);
+        ImageView rightImage = (ImageView) findViewById(R.id.ImageRight);
 
         //set title and main body text
-        eventTitle.setText("Battle of Britain");
+        eventTitle.setText("Model Event");
+        mainText.setText("This will be the main and primary event image.");
+
+        //set image
+        topImage.setImageResource(R.mipmap.bomb1);
+        leftImage.setImageResource(R.mipmap.bomb2);
+        rightImage.setImageResource(R.mipmap.bomb3);
+    }
+
+    public void loadEvent2(View v)
+    {
+        //If multiple years were going to be present, an if statement would be used on the start date int. However
+        //will not be implemented in this release.
+        setContentView(R.layout.event_info);
+
+        //Get the title text and main body text.
+        TextView eventTitle = (TextView) findViewById(R.id.TitleBar);
+        TextView mainText = (TextView) findViewById(R.id.MainText);
+
+        //set title and main body text
+        eventTitle.setText("Battle of Britain2");
         mainText.setText("This box will include all the " +
                 "data about this particualr historical item or event. " +
                 "Lorem ipsum dolor sit amet, elit nihil pertinax sed te, ne nobis graeco duo, " +

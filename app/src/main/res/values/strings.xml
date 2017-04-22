@@ -1,13 +1,11 @@
 <resources>
     <string name="app_name">IbTimeline</string>
-    <string name="Title"> IBCC Historical Timeline</string>
+    <string name="Title">History of the Bomber Command</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="Return">Return to Timeline</string>
     <string name="view3D">Go to 3D View</string>
     <string name="Event1">Event1</string>
-    <string name="Event2">Event2</string>
-    <string name="Event3">Event3</string>
-    <string name="Event4">Event4</string>
+
 </resources>
 
