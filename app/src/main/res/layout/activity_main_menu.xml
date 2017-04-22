@@ -159,7 +159,8 @@
         android:layout_marginTop="175dp"
         app:srcCompat="@mipmap/bomb1"
         android:onClick="loadEvent1"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:background="@color/transparent"/>
 
     <!-- Top Middle -->
 
@@ -172,6 +173,7 @@
         app:srcCompat="@mipmap/plane1"
         android:onClick="loadEvent2"
         android:scaleType="fitXY"
+        android:background="@color/transparent"
         />
 
     <!-- Bottom Left -->
@@ -184,7 +186,8 @@
         android:layout_marginTop="450dp"
         app:srcCompat="@mipmap/plane2"
         android:onClick="loadEvent2"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:background="@color/transparent"/>
 
     <!-- Bottom Right -->
     <ImageButton
@@ -195,7 +198,8 @@
         android:layout_marginTop="450dp"
         app:srcCompat="@mipmap/plane3"
         android:onClick="loadEvent2"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:background="@color/transparent"/>
 
     <!-- Top Right -->
     <ImageButton
@@ -206,7 +210,8 @@
         android:layout_marginTop="175dp"
         app:srcCompat="@mipmap/plane4"
         android:onClick="loadEvent2"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:background="@color/transparent"/>
 
 
 </FrameLayout>
