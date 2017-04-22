@@ -6,7 +6,7 @@
     android:background="#0099cc"
     tools:context="ibtime.ibtimeline.MainMenu">
 
-    <!-- background colour, placeholding atm-->
+    <!-- background colour-->
     <TextView
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:background="@color/black"
        />
 
-    <!-- title text bar, placeholding atm -->
+    <!-- title text bar -->
     <TextView
         android:text="@string/Title"
         android:layout_width="match_parent"

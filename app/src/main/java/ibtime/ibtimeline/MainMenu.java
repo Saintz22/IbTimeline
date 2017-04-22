@@ -211,8 +211,19 @@ public class MainMenu extends AppCompatActivity {
         //If multiple years were going to be present, an if statement would be used on the start date int. However
         //will not be implemented in this release.
         setContentView(R.layout.event_info);
+
+        //Get the title text and main body text.
         TextView eventTitle = (TextView) findViewById(R.id.TitleBar);
+        TextView mainText = (TextView) findViewById(R.id.MainText);
+
+        //set title and main body text
         eventTitle.setText("Battle of Britain");
+        mainText.setText("This box will include all the " +
+                "data about this particualr historical item or event. " +
+                "Lorem ipsum dolor sit amet, elit nihil pertinax sed te, ne nobis graeco duo, " +
+                "sea no nusquam euripidis similique. Te vel prodesset constituam, velit audiam praesent per at. " +
+                "Homero oblique nominavi id usu, qui ne tincidunt voluptaria. Nulla mediocrem voluptaria sea et. Has no " +
+                "volutpat suscipiantur, quem laboramus mei no, erant mnesarchum scribentur ei vel.");
     }
 
     //here we will load the other 4 event pages once the initial design is complete.
