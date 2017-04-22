@@ -208,10 +208,14 @@ public class MainMenu extends AppCompatActivity {
     //load eventpage one,
     public void loadEvent1(View v)
     {
+        //If multiple years were going to be present, an if statement would be used on the start date int. However
+        //will not be implemented in this release.
         setContentView(R.layout.event_info);
+        TextView eventTitle = (TextView) findViewById(R.id.TitleBar);
+        eventTitle.setText("Battle of Britain");
     }
 
     //here we will load the other 4 event pages once the initial design is complete.
-    //can also work with the timescale changing on clicks, will be done with a combination of button id being clicked and start date. 
+    //can also work with the timescale changing on clicks, will be done with a combination of button id being clicked and start date.
 
 }
