@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/black"
        />
 
     <!-- title text bar, placeholding atm -->
@@ -21,7 +21,7 @@
         android:id="@+id/TitleBar"
         android:layout_width="match_parent"
         android:layout_height="103dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/black"
         android:gravity="center"
         android:text="@string/Event1"
         android:textColor="@color/teal"
