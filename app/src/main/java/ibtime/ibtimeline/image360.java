@@ -46,7 +46,7 @@ public class image360 extends AppCompatActivity {
 
                 if((mEndX - mStartX) > 3) {
                     mImageIndex++;
-                    if(mImageIndex > 4 )
+                    if(mImageIndex > 19 )
                         mImageIndex = 0;
 
                     m360DegreeImageView.setImageLevel(mImageIndex);
@@ -55,7 +55,7 @@ public class image360 extends AppCompatActivity {
                 if((mEndX - mStartX) < -3) {
                     mImageIndex--;
                     if(mImageIndex <0)
-                        mImageIndex = 4;
+                        mImageIndex = 19;
 
                     m360DegreeImageView.setImageLevel(mImageIndex);
 
