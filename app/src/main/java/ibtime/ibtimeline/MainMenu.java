@@ -1,6 +1,7 @@
 package ibtime.ibtimeline;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -297,5 +298,13 @@ public class MainMenu extends AppCompatActivity {
     }
 
     //if timescale is implemented, choose what to show based on start/end date.
+
+    //initialise 3d imagery activity
+    public void init360(View v){
+
+        Intent newAct = new Intent(getApplicationContext(), image360.class);
+        startActivity(newAct);
+
+    }
 
 }
